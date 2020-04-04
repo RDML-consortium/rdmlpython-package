@@ -1,1 +1,2 @@
 v0.7.0, 15.03.2019 -- Initial release.
+v0.8.3, 04.04.2020 -- LinRegPCR added.

@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name='rdmlpython',
-    version='0.7.0',
+    version='0.8.3',
     author='Andreas Untergasser',
     author_email='andreas@untergasser.de',
     packages=['rdmlpython'],
@@ -14,5 +14,6 @@ setup(
     long_description=open('README.txt').read(),
     install_requires=[
         "lxml >= 4.2.1",
+        "numpy >= 1.17.2",
     ],
 )

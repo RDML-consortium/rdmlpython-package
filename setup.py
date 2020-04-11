@@ -1,10 +1,15 @@
 #! /usr/bin/env python
 
+import rdmlpython as rdml
 from setuptools import setup
+
+vers = rdml.get_rdml_lib_version()
+
+print("Current version: " + vers)
 
 setup(
     name='rdmlpython',
-    version='0.8.3',
+    version=vers,
     author='Andreas Untergasser',
     author_email='andreas@untergasser.de',
     packages=['rdmlpython'],
@@ -15,5 +20,6 @@ setup(
     install_requires=[
         "lxml >= 4.2.1",
         "numpy >= 1.17.2",
+        "scipy >= 1.3.1", 
     ],
 )

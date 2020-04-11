@@ -22,4 +22,5 @@ setup(
         "numpy >= 1.17.2",
         "scipy >= 1.3.1", 
     ],
+    include_package_data=True,
 )

@@ -1,4 +1,3 @@
-include *.txt
 include rdmlpython/__init__.py
 include rdmlpython/LICENSE
 include rdmlpython/rdml.py

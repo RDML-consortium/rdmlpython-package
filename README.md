@@ -24,6 +24,8 @@ Update the repository
 
 `git submodule update --recursive --remote`
 
+`rm -rf rdmlpython.egg-info dist build`
+
 `python setup.py bdist_wheel --universal`
 
 `twine upload dist/*`

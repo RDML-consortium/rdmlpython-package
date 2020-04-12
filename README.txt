@@ -8,7 +8,6 @@ data. The rdmlpython package allows to load, view, modify and
 save RDML files. 
 
 Typical usage may looks like this::
-
     #!/usr/bin/env python
 
     from rdmlpython as rdml
@@ -20,4 +19,5 @@ Typical usage may looks like this::
     for sample in sam:
         print(sample["id"] + " - " + sample["type"])
 
-
+For more information visit:
+https://www.gear-genomics.com/rdml-tools/help.html#LRP-Library

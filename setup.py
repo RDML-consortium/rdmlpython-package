@@ -20,7 +20,8 @@ setup(
     install_requires=[
         "lxml >= 4.2.1",
         "numpy >= 1.17.2",
-        "scipy >= 1.3.1", 
+        "scipy >= 1.3.1",
+        "matplotlib >= 3.5.1",
     ],
     include_package_data=True,
     entry_points = {
